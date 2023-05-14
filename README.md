@@ -106,38 +106,5 @@ NPM Download Statistics for Leon Si (leondreamed)'s Open Source Projects. Update
 | [@leondreamed/trpc-next](https://www.npmjs.com/package/@leondreamed/trpc-next)                                   | 92            |
 | [leonzalion](https://www.npmjs.com/package/leonzalion)                                                           | 91            |
 | **Total**                                                                                                        | **2,159,887** |
+| **Total # of Packages**                                                                                          | **94**        |
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-### Wanna use `npm-statistics`?
-
-1. `Fork` this repository.
-2. Add your npm username/author or list of packages in `package.json` as `npm-stats` key.
-   for author
-
-```js
-{
-  "npm-stats": "leondreamed"
-}
-```
-
-or for packages
-
-```js
-{
-  "npm-stats": [
-    "markdown-magic",
-    "analytics"
-  ]
-}
-```
-
-3. Run `npm i` and then `npm start` to generate the Downloads.
-4. The repo comes with a daily CRON job that updates the Downloads.
-5. For updating the badge replace `leondreamed` in badge endpoint to your github username/orgname.
-   https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2F`username`%2Fnpm-statistics%2Fmaster%2Fstats.json
-6. Enable `GitHub Actions` for your forked repo, as it is enabled by default for forks.
-
-## Ref
-
-- [npmtotal](https://github.com/maddhruv/npmtotal) - Find you npm download statistics
-- [Props to ClearTax for this awesome action](https://github.com/ClearTax/npm-statistics)
